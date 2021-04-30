@@ -1,0 +1,19 @@
+{
+  "$schema": "./schemas/package.schema.json",
+  "name": "lambda-go-gin",
+  "template": "lambda-go-gin",
+  "templateVersion": "0.1.1",
+  "configuration": {},
+  "deployments": [
+    {
+      "name": "dev",
+      "configuration": {
+        "lambdaName": "go-gin-starter-project",
+        "apiDomain": "go-gin-starter-project.dev.goldstack.party",
+        "hostedZoneDomain": "dev.goldstack.party"
+      },
+      "awsUser": "awsUser",
+      "awsRegion": "us-west-2"
+    }
+  ]
+}

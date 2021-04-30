@@ -1,0 +1,15 @@
+{
+  "projectName": "go-gin-starter-project",
+  "packages": [
+    {
+      "packageName": "lambda-go-gin",
+      "templateReference": {
+        "templateName": "lambda-go-gin"
+      }
+    }
+  ],
+  "rootTemplateReference": {
+    "templateName": "yarn-pnp-monorepo"
+  },
+  "createdAt": "2021-04-30T23:55:16.141Z"
+}
