@@ -18,7 +18,7 @@ func CreateServer() *gin.Engine {
 		r.Use(cors.New(config))
 	}
 	r.GET("/", func(c *gin.Context) {
-		c.String(http.StatusOK, "success")
+		c.String(http.StatusOK, "Lambda Go Starter Project 🚀")
 	})
 	r.GET("/status", func(c *gin.Context) {
 		c.JSON(http.StatusOK, gin.H{
